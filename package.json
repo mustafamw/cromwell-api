@@ -1,0 +1,21 @@
+{
+  "name": "cromwell-api",
+  "version": "1.0.0",
+  "description": "Cromwell API",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "debug": "nodemon --inspect index.js",
+    "watch": "NODE_ENV=development nodemon index.js"
+  },
+  "author": "Mustafa Mohamed",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "http-status-codes": "^1.4.0",
+    "mongodb": "^3.5.7",
+    "swagger-express-middleware": "^4.0.0",
+    "swagger-ui-express": "^4.1.4"
+  }
+}
