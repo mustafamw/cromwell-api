@@ -11,8 +11,8 @@
   "author": "Mustafa Mohamed",
   "license": "ISC",
   "dependencies": {
-    "body-parser": "^1.19.0",
-    "express": "^4.17.1",
+    "body-parser": "^1.20.1",
+    "express": "^4.18.2",
     "http-status-codes": "^1.4.0",
     "mongodb": "^3.5.7",
     "swagger-express-middleware": "^4.0.0",
